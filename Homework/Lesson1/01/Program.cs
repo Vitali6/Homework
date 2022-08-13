@@ -10,9 +10,8 @@ int max = 0;
 if (a > max) max = a;
 if (b > max) max = b;
 {
-    Console.WriteLine(("больше") + b);
-    Console.WriteLine(("меньше") + a);
-    }
+    Console.WriteLine(("больше") + " " + max);
+}
  
 
 
