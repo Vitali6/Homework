@@ -9,7 +9,7 @@ int n = 1;
 
 while (n <= a)
 {
-    Console.WriteLine(Math.Pow(n, 3));
+    Console.Write(Math.Pow(n, 3) + ", ");
     n++;
 } 
 

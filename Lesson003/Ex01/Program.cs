@@ -4,9 +4,12 @@ Console.Write("y: ");
 int y = Convert.ToInt32(Console.Readline());
 Console.Write("x: ");
 int x = Convert.ToInt32(Console.Readline());
-if (x < 0 && y < 0){
+if (x < 0 && y < 0)
+{
     Concole.WriteLine("Точка в плоскости 4");
-}else if (x>0 && y<0){
+}
+else if (x>0 && y<0)
+{
     Console.WriteLine("Точка в плоскости 3");
 }
 
