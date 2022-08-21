@@ -3,10 +3,15 @@
 82 -> 10
 9012 -> 12*/
 
-Console.WriteLine("Введите число: ");
-int i = Convert.ToInt32(Console.ReadLine());
-int value = 999;
-for (int a = 0; a <= value; a++)
+
+
+int a = int.Parse(Console.ReadLine());
+int s = 0;
+while (a > 0)
 {
-    Console.WriteLine($"  ");
-}    
+ 
+    s = s + a % 10;
+    a = a /10 ;
+ 
+}
+ Console.WriteLine(s);
