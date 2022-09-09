@@ -7,12 +7,12 @@
 int a = -3;
 int b = 9;
 
-if ((b*b) ==a ) 
+if ((b * b) == a)
 {
-    Console.WriteLine ("Yes");
+    Console.WriteLine("Yes");
 }
 else
 {
-    Console.WriteLine ("No");
+    Console.WriteLine("No");
 }
-    
+
